@@ -3,9 +3,9 @@
   "version": "4.17.1",
   "unity": "2019.1",
   "displayName": "Jint Unity",
-  "description": "Jint parser package built for Unity.",
+  "description": "Jint parser package prepared for Unity Package Manager.",
   "author": {
     "name" : "vulture-boy",
-    "url" : ""
+    "url" : "https://github.com/vulture-boy/Jint-Unity"
   }
 }
