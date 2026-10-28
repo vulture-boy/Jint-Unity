@@ -1,6 +1,8 @@
 # Jint Unity
   
-Jint Unity provides an easy way to install [Jint](https://github.com/sebastienros/jint) trough the package manager and execute javascript in Unity
+Jint Unity provides an easy way to install [Jint](https://github.com/sebastienros/jint) trough the package manager and execute javascript in Unity.
+
+This fork utilizes [Acornima](https://www.nuget.org/packages/Acornima#readme-body-tab) for parsing and currently targets .NET Standard 2.1.
 
 
 ## ➕ Installation
@@ -9,13 +11,7 @@ Jint Unity provides an easy way to install [Jint](https://github.com/sebastienro
 * Click the add **+** button in the status bar.
 * The options for adding packages appear.
 * Select Add package from git URL from the add menu. A text box and an Add button appear.
-* Enter the `https://github.com/magicblock-labs/Jint-Unity.git` Git URL in the text box and click Add.
-* Once the package is installed, in the Package Manager inspector you will have Samples. Click on Import
-* You may also install a specific package version by using the URL with the specified version.
-  * `https://github.com/magicblock-labs/Jint-Unity.git#vX.Y.X`
-  * Please note that the version `X.Y.Z` stated here is to be replaced with the version you would like to get.
-  * You can find all the available releases [here](https://github.com/magicblock-labs/Jint-Unityreleases).
-  * The latest available release version is [![Last Release](https://img.shields.io/github/v/release/magicblock-labs/Jint-Unity)](https://github.com/magicblock-labs/Jint-Unity/releases/latest)
+* Enter the `https://github.com/vulture-boy/Jint-Unity.git` Git URL in the text box and click Add (you can append the version number to target [a specific release version](https://github.com/vulture-boy/Jint-Unityreleases), if available).
   
 ## Usage
 
