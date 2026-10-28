@@ -1,8 +1,8 @@
 # Jint Unity
   
-Jint Unity allows the installation of [Jint](https://github.com/sebastienros/jint) through the package manager, allowing you to execute JavaScript in Unity. This was originally forked from [Magicblock's repository](https://github.com/magicblock-labs/Jint-Unity) which has a copyright license claim. However, the functional content, aside from the sample, isn't valid to claim for copyright; I've removed the sample content to lift the licensing restrictions.
+Jint Unity allows the installation of [Jint](https://github.com/sebastienros/jint) through the package manager, allowing you to execute JavaScript in Unity. [Acornima](https://github.com/adams85/acornima/tree/master) is used for parsing. This was originally forked from a fork of [Magicblock's repository](https://github.com/magicblock-labs/Jint-Unity) which has a copyright license claim. However, the functional content, aside from the sample, isn't valid to claim for copyright as it is sourced from Jint and Acornima's official DLLs and has been updated from their repositories. I've removed the sample content so that this package can serve anyone without needing to credit anyone besides Jint and Acornima's license restrictions. 
 
-Essentially all this repository does is connect the .dll available from Jint's repository with a `package.json` so that Unity can import it via the package manager. It targets NET Standard 2.1 for compatability with Unity 2019 and above.
+Essentially all this repository does is connect the .dll available from the Jint and Acornima repositories with a `package.json` so that Unity can import it via the package manager. It targets NET Standard 2.1 for compatability with Unity 2019 and above.
 
 ## Installation
 
