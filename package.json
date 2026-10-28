@@ -1,7 +1,7 @@
 {
   "name": "com.jint.unity",
   "version": "4.17.1",
-  "unity": "2019",
+  "unity": "2019.1",
   "displayName": "Jint Unity",
   "description": "Jint parser package built for Unity.",
   "author": {
