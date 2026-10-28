@@ -1,15 +1,13 @@
 # Jint Unity
   
-Jint Unity provides an easy way to install [Jint](https://github.com/sebastienros/jint) trough the package manager and execute javascript in Unity.
+Jint Unity allows the installation of [Jint](https://github.com/sebastienros/jint) through the package manager, allowing you to execute JavaScript in Unity. This was originally forked from [Magicblock's repository](https://github.com/magicblock-labs/Jint-Unity) which has a copyright license claim. However, the functional content, aside from the sample, isn't valid to claim for copyright; I've removed the sample content to lift the licensing restrictions.
 
-This fork utilizes [Acornima](https://www.nuget.org/packages/Acornima#readme-body-tab) for parsing and currently targets .NET Standard 2.1.
+Essentially all this repository does is connect the .dll available from Jint's repository with a `package.json` so that Unity can import it via the package manager. It targets NET Standard 2.1 for compatability with Unity 2019 and above.
 
-
-## ➕ Installation
+## Installation
 
 * Open [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui.html) window.
-* Click the add **+** button in the status bar.
-* The options for adding packages appear.
+* Click the add **+** button in the status bar; the options for adding packages appear.
 * Select Add package from git URL from the add menu. A text box and an Add button appear.
 * Enter the `https://github.com/vulture-boy/Jint-Unity.git` Git URL in the text box and click Add (you can append the version number to target [a specific release version](https://github.com/vulture-boy/Jint-Unityreleases), if available).
   
@@ -45,7 +43,3 @@ source.Close();
 js.Execute(script);
 
 ```
-
-## Dependencies
-
-Script with dependencies can be bundled using webpack or rollup, see this [tutorial](https://pleasenophp.github.io/posts/using-real-javascript-with-unity.html) for reference.

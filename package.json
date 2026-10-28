@@ -1,19 +1,11 @@
 {
   "name": "com.jint.unity",
   "version": "4.17.1",
-  "unity": "6000.6",
+  "unity": "2019",
   "displayName": "Jint Unity",
-  "description": "Jint parser package built for Unity. Forked from Magicblock's Jint Unity project.",
-  "samples": [
-    {
-      "displayName": "Simple JS Example",
-      "description": "Contains an example for running a simple js",
-      "path": "Samples~"
-    }
-  ],
+  "description": "Jint parser package built for Unity.",
   "author": {
     "name" : "vulture-boy",
     "url" : ""
-  },
-  "license": "MIT"
+  }
 }
