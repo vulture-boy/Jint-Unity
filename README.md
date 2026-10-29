@@ -1,6 +1,6 @@
 # Jint Unity
   
-Jint Unity allows the installation of [Jint](https://github.com/sebastienros/jint) through the package manager, allowing you to execute JavaScript in Unity. [Acornima](https://github.com/adams85/acornima/tree/master) is used for parsing. This was originally forked from a fork of [Magicblock's repository](https://github.com/magicblock-labs/Jint-Unity) which has a copyright license claim. However, the functional content, aside from the sample, isn't valid to claim for copyright as it is sourced from Jint and Acornima's official DLLs and has been updated from their repositories. I've removed the sample content so that this package can serve anyone without needing to credit anyone besides Jint and Acornima's license restrictions. 
+Jint Unity allows the installation of [Jint](https://github.com/sebastienros/jint) through the package manager, allowing you to execute JavaScript in Unity. [Acornima](https://github.com/adams85/acornima/tree/master) is used for parsing. 
 
 Essentially all this repository does is connect the .dll available from the Jint and Acornima repositories with a `package.json` so that Unity can import it via the package manager. It targets NET Standard 2.1 for compatability with Unity 2019 and above.
 
@@ -43,3 +43,9 @@ source.Close();
 js.Execute(script);
 
 ```
+
+## Concerning the lack of License
+
+This was originally forked from a fork of [Magicblock's repository](https://github.com/magicblock-labs/Jint-Unity) which has an MIT copyright license claim. However, the functional content, aside from the sample, isn't valid to claim for copyright as it is sourced from Jint and Acornima's official DLLs. I have also updated the DLLs using the latest (at time of writing) from Jint and Acornima's repositories. The project.json content is also freely available formatting from Unity. I've removed the sample content so that this package can serve anyone without needing to credit any third parties outside the license restrictions of Jint and Acornima.
+
+This is all to say that I don't claim any copyright over the material therein and you should confirm the licensing of the DLLs as it applies to this repo, but otherwise this code is free for use as you like.
