@@ -9,7 +9,7 @@ Essentially all this repository does is connect the .dll available from the Jint
 * Open [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui.html) window.
 * Click the add **+** button in the status bar; the options for adding packages appear.
 * Select Add package from git URL from the add menu. A text box and an Add button appear.
-* Enter the `https://github.com/vulture-boy/Jint-Unity.git` Git URL in the text box and click Add (you can append the version number to target [a specific release version](https://github.com/vulture-boy/Jint-Unityreleases), if available).
+* Enter the `https://github.com/vulture-boy/Jint-Unity.git` Git URL in the text box and click Add (you can append the version number to target [a specific release version](https://github.com/vulture-boy/Jint-Unity#releases), if available).
   
 ## Usage
 
@@ -46,6 +46,6 @@ js.Execute(script);
 
 ## Concerning the lack of License
 
-This was originally forked from a fork of [Magicblock's repository](https://github.com/magicblock-labs/Jint-Unity) which has an MIT copyright license claim. However, the functional content, aside from the sample, isn't valid to claim for copyright as it is sourced from Jint and Acornima's official DLLs. I have also updated the DLLs using the latest (at time of writing) from Jint and Acornima's repositories. The project.json content is also freely available formatting from Unity. I've removed the sample content so that this package can serve anyone without needing to credit any third parties outside the license restrictions of Jint and Acornima.
+This was originally forked from a fork of [Magicblock's repository](https://github.com/magicblock-labs/Jint-Unity) which has an MIT copyright license claim. However, the functional content, aside from the sample, isn't valid to claim for copyright as it is sourced from Jint and Acornima's official DLLs (the repo is probably genAI?). I have also updated the DLLs using the latest (at time of writing) from Jint and Acornima's repositories. The project.json content is also freely available formatting from Unity. I've removed the sample content so that this package can serve anyone without needing to credit any third parties outside the license restrictions of Jint and Acornima.
 
 This is all to say that I don't claim any copyright over the material therein and you should confirm the licensing of the DLLs as it applies to this repo, but otherwise this code is free for use as you like.
